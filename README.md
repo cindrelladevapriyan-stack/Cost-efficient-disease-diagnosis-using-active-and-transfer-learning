@@ -489,8 +489,8 @@ def active_learning_pipeline(pool_df, val_df, test_df,
 
 
 if __name__ == "__main__":
-    csv_path = "/Users/devapriyansahayagoodwin/Documents/cost_final_code.py/Data_Entry_2017_v2020.csv"
-    base_dir = "/Users/devapriyansahayagoodwin/Documents/cost_final_code.py/images/"
+    csv_path = ""
+    base_dir = ""
 
     print("Loading metadata...")
     df = load_metadata(csv_path)
